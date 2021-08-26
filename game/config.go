@@ -25,6 +25,6 @@ var (
 	walkingKeys = []string{"ArrowUp", "ArrowDown", "ArrowRight", "ArrowLeft"}
 
 	// scene stuff
-	scenes           = []scene{} // check out initializeScenes()
-	activeSceneIndex = 0
+	scenes                = []scene{} // check out initializeScenes()
+	activeSceneIndex uint = 0
 )
